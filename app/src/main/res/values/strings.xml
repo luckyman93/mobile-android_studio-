@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">My Directory</string>
+    <string name="tel">tel:888-8888</string>
+    <string name="directoryName">Sample Project Group Directory</string>
+    <string name="information">Information</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="warning">This group paused their activities</string>
+
+    <string name="bella">Bella</string>
+    <string name="bellainfo">The Future image show that tomorrow never come, so do all work today as
+        much possible to do. Do not wait till tomorrow. </string>
+
+    <string name="charlie">Charlie</string>
+    <string name="charlieinfo">The Future image show that tomorrow never come, so do all work today as
+        much possible to do. Do not wait till tomorrow. </string>
+
+    <string name="cooper">Cooper</string>
+    <string name="cooperinfo">The Future image show that tomorrow never come, so do all work today as
+        much possible to do. Do not wait till tomorrow. </string>
+
+    <string name="kobe">Kobe</string>
+    <string name="kobeinfo">The future image show that this and this</string>
+
+    <string name="luna">Luna</string>
+    <string name="lunainfo">The Future image show that tomorrow never come, so do all work today as
+        much possible to do. Do not wait till tomorrow. </string>
+
+    <string name="selected">selected</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

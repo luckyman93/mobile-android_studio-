@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/nav"
+app:startDestination="@id/listFragment">
+
+<fragment
+    android:id="@+id/listFragment"
+    android:name="android.sampleproject.ListFragment"
+    android:label="fragment_list"
+    tools:layout="@layout/fragment_list" >
+    <action
+        android:id="@+id/action_list_to_detail"
+        app:destination="@id/detailFragment" />
+</fragment>
+
+<fragment
+    android:id="@+id/detailFragment"
+    android:name="android.sampleproject.DetailFragment"
+    android:label="fragment_detail"
+    tools:layout="@layout/fragment_detail" >
+    <!-- TODO: set to the Item object instead of string, int, etc-->
+    <argument
+        android:name="itemName"
+        app:argType="string" />
+</fragment>
+
+<fragment
+    android:id="@+id/infoFragment"
+    android:name="android.sampleproject.InfoFragment"
+    android:label="fragment_info"
+    tools:layout="@layout/fragment_info" />
+<action android:id="@+id/action_global_infoFragment"
+    app:destination="@id/infoFragment" />
+</navigation>
